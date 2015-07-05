@@ -3,7 +3,8 @@
 <svg version="1.1" id="mainview" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 750 750" enable-background="new 0 0 750 750" xml:space="preserve">
 <rect id="blue" x="36.5" y="26" fill="#3C55A5" width="687.8" height="690.5"/>
-<rect id="red" x="36.5" y="26" fill="#ED1F24" width="189.8" height="190.5"/>
-<rect id="yellow" x="36.5" y="407.1" fill="#F1E912" width="189.8" height="190.5"/>
-<rect id="green" x="36.5" y="216.5" fill="#6BBD45" width="189.8" height="190.5"/>
+<rect id="red" x="534.6" y="26" display="none" fill="#ED1F24" width="189.8" height="190.5"/>
+<rect id="yellow" x="534.6" y="407.1" display="none" fill="#F1E912" width="189.8" height="190.5"/>
+<rect id="green" x="534.6" y="216.5" display="none" fill="#6BBD45" width="189.8" height="190.5"/>
+<rect id="togglebox" x="36.5" y="26" fill="#ED1F24" width="179.7" height="179.7"/>
 </svg>

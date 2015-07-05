@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <script src="//code.jquery.com/jquery-1.10.3.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
   $.get('redbluetest.svg', function(data) {
@@ -9,6 +12,9 @@
   });
   function init() {
 
+$('#togglebox').click(function() {
+	$("#red").toggle( "slide" );
+});
 
 
 $('#green').click(function() {
@@ -20,7 +26,7 @@ $('#yellow').click(function() {
 });
 
 $('#red').click(function() {
-	$("p").toggle("slide", { direction: "left" }, 1000);
+	$("p").toggle( "slide" );
 });
 
   }
