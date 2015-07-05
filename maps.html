@@ -3,29 +3,22 @@
 <head>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
-$(document).ready(function () {
+  $.get('Telluride.svg', function(data) {
+    $(document.body).append(data.documentElement);
+    init();
+  });
+  function init() {
+$('#blue').click(function() {
+   alert("blue");
 
-   $('.iframeholder').on('click', function( e ) {
-     e.preventDefault();
-     alert('test');
-   });
-
-});
+  }
 </script>
 <style>
   /* Add CSS here */
 
-iframe {  
-   pointer-events:none; 
-}
 </style>
 
 <body>
-<div class="iframeholder">
-<iframe src="Telluride.svg">
-
-</iframe>
-</div>
 
 </body>
 </html>
