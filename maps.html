@@ -1,77 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <script src="//code.jquery.com/jquery-1.10.3.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
-  $.get('redbluetest.svg', function(data) {
+  $.get('Telluride.svg', function(data) {
     $(document.body).append(data.documentElement);
     init();
   });
   function init() {
 
-$('#button-red').hover(function() {
-	$("#red").toggle();
-});
-
-$('#button-green').click(function() {
-	$("#green").toggle();
-});
-
-$('#button-yellow').click(function() {
-	$("#yellow").toggle();
-});
-
 $('#green').click(function() {
-   alert("green.");
+   alert("test");
 });
-
-$('#yellow').click(function() {
-   alert("yellow.");
-});
-
-// $('#red').click(function() {
-// 	$("p").toggle( "slide" );
-// });
 
   }
 </script>
 <style>
-#yellow {
-
-	font-size: 44px;
-}
+  /* Add CSS here */
 </style>
 
 <body>
 
 <p>If you click on the "Hide" button, I will disappear.</p>
-
-<div id="yellow">
-test
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
