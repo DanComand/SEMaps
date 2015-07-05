@@ -6,5 +6,7 @@
 <rect id="red" x="534.6" y="26" display="none" fill="#ED1F24" width="189.8" height="190.5"/>
 <rect id="yellow" x="534.6" y="407.1" display="none" fill="#F1E912" width="189.8" height="190.5"/>
 <rect id="green" x="534.6" y="216.5" display="none" fill="#6BBD45" width="189.8" height="190.5"/>
-<rect id="togglebox" x="36.5" y="26" fill="#ED1F24" width="179.7" height="179.7"/>
+<rect id="button-red" x="36.5" y="26" fill="#ED1F24" width="136.5" height="54.1"/>
+<rect id="button-green" x="36.5" y="104.8" fill="#6BBD45" width="136.5" height="54.1"/>
+<rect id="button-yellow" x="36.5" y="184.1" fill="#F1E912" width="136.5" height="54.1"/>
 </svg>

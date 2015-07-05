@@ -12,10 +12,17 @@
   });
   function init() {
 
-$('#togglebox').click(function() {
-	$("#red").toggle( "slide" );
+$('#button-red').click(function() {
+	$("#red").toggle();
 });
 
+$('#button-green').click(function() {
+	$("#green").toggle();
+});
+
+$('#button-yellow').click(function() {
+	$("#yellow").toggle();
+});
 
 $('#green').click(function() {
    alert("green.");
@@ -25,9 +32,9 @@ $('#yellow').click(function() {
    alert("yellow.");
 });
 
-$('#red').click(function() {
-	$("p").toggle( "slide" );
-});
+// $('#red').click(function() {
+// 	$("p").toggle( "slide" );
+// });
 
   }
 </script>
