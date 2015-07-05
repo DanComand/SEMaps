@@ -3,26 +3,29 @@
 <head>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
-  $.get('Telluride.svg', function(data) {
-    $(document.body).append(data.documentElement);
-    init();
-  });
-  function init() {
+$(document).ready(function () {
 
-$('#green').click(function() {
-   alert("test");
+   $('.iframeholder').on('click', function( e ) {
+     e.preventDefault();
+     alert('test');
+   });
+
 });
-
-  }
 </script>
 <style>
   /* Add CSS here */
+
+iframe {  
+   pointer-events:none; 
+}
 </style>
 
 <body>
+<div class="iframeholder">
+<iframe src="Telluride.svg">
 
-<p>If you click on the "Hide" button, I will disappear.</p>
-
+</iframe>
+</div>
 
 </body>
 </html>
