@@ -1,0 +1,16 @@
+<!doctype html>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+  $.get('redbluetest.svg', function(data) {
+    $(document.body).append(data.documentElement);
+    init();
+  });
+  function init() {
+$('#red').click(function() {
+   alert("The paragraph was clicked.");
+});
+  }
+</script>
+<style>
+  /* Add CSS here */
+</style>
